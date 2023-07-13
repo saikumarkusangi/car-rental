@@ -162,7 +162,7 @@ function BookCar() {
         <div className="container">
           <div className="book-content">
             <div className="book-content__box">
-              <h2>Book a car</h2>
+              <h2>Suits Jobs For You.</h2>
 
               <p className="error-message">
                 All fields required! <i className="fa-solid fa-xmark"></i>
@@ -176,88 +176,66 @@ function BookCar() {
               <form className="box-form">
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-car"></i> &nbsp; Select Your Car
+                    <i className="fa-solid fa-car"></i> &nbsp; Select Your Job
                     Type <b>*</b>
                   </label>
                   <select value={carType} onChange={handleCar}>
-                    <option>Select your car type</option>
-                    <option value="Audi A1 S-Line">Maruti Alto 800</option>
-                    <option value="VW Golf 6">VW Golf 6</option>
-                    <option value="Toyota Camry">Maruti Swift</option>
-                    <option value="BMW 320 ModernLine">
-                      Hyundai i20
-                    </option>
-                    <option value="Mercedes-Benz GLK">Hyundai Varna</option>
-                    <option value="VW Passat CC">Mahindra XUV300</option>
+                    <option>Select your Job Type</option>
+                    <option value="Full-Time Job">Full-Time Job</option>
+                    <option value="Part-Time Job">Part-Time Job</option>
+                    <option value="On-Site">On-Site</option>
                   </select>
                 </div>
 
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-location-dot"></i> &nbsp; Pick-up{" "}
+                    <i className="fa-solid fa-location-dot"></i> &nbsp; Location{" "}
                     <b>*</b>
                   </label>
                   <select value={pickUp} onChange={handlePick}>
-                    <option>Select pick up location</option>
-                    <option>Begumpet Station</option>
-                    <option>MGBS</option>
+                    <option>Select working location</option>
+                    <option>Hyderabad</option>
+                    <option>Mumbai</option>
                     <option>Nagarjuna Circle</option>
-                    <option>Patny Circle</option>
-                    <option>Secunderabad Station</option>
-                    <option>Gachibowli</option>
-                    <option>Miyapur</option>
-                    <option>Yacharam</option>
-                    <option>Manikonda</option>
-                    <option>Kompally</option>
+                    <option>chennai</option>
+                    <option>Delhi</option>
+                    <option>USA</option>
+                    <option>UK</option>
                   </select>
                 </div>
 
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-location-dot"></i> &nbsp; Drop-of{" "}
+                    <i className="fa-solid fa-location-dot"></i> &nbsp; Experience Level{" "}
                     <b>*</b>
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
-                    <option>Select drop off location</option>
-                    <option>Begumpet Station</option>
-                    <option>MGBS</option>
-                    <option>Nagarjuna Circle</option>
-                    <option>Patny Circle</option>
-                    <option>Secunderabad Station</option>
-                    <option>Gachibowli</option>
-                    <option>Miyapur</option>
-                    <option>Yacharam</option>
-                    <option>Manikonda</option>
-                    <option>Kompally</option>
+                    <option>Experience Level</option>
+                    <option>Professional</option>
+                    <option>Internship</option>
+                    <option>Entry Level</option>
+                    
                   </select>
                 </div>
 
-                <div className="box-form__car-time">
-                  <label htmlFor="picktime">
-                    <i className="fa-regular fa-calendar-days "></i> &nbsp;
-                    Pick-up <b>*</b>
+                <div className="box-form__car-type">
+                  <label>
+                    <i className="fa-solid fa-location-dot"></i> &nbsp; Select Job Role{" "}
+                    <b>*</b>
                   </label>
-                  <input
-                    id="picktime"
-                    value={pickTime}
-                    onChange={handlePickTime}
-                    type="date"
-                  ></input>
+                  <select value={dropOff} onChange={handleDrop}>
+                    <option>Select Job Role</option>
+                    <option>UI Designer</option>
+                    <option>IT Software</option>
+                    <option>Video Editing</option>
+                    <option>Teaching</option>
+                    <option>Human Resource</option>
+                    
+                  </select>
                 </div>
 
-                <div className="box-form__car-time">
-                  <label htmlFor="droptime">
-                    <i className="fa-regular fa-calendar-days "></i> &nbsp;
-                    Drop-of <b>*</b>
-                  </label>
-                  <input
-                    id="droptime"
-                    value={dropTime}
-                    onChange={handleDropTime}
-                    type="date"
-                  ></input>
-                </div>
 
+              
                 <button onClick={openModal} type="submit">
                   Search
                 </button>

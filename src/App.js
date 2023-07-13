@@ -1,5 +1,5 @@
 import "../src/dist/styles.css";
-import About from "./Pages/About";
+import JobList from "./Pages/JobsPage";
 import Home from "./Pages/Home";
 import Navbar from "../src/components/Navbar";
 import { Route, Routes } from "react-router-dom";
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route index path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path="jobs" element={<JobList />} />
         <Route path="models" element={<Models />} />
         <Route path="testimonials" element={<TestimonialsPage />} />
         <Route path="team" element={<Team />} />

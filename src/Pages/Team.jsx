@@ -4,15 +4,14 @@ import Person1 from "../images/team/1.png";
 import Person2 from "../images/team/2.png";
 import Person3 from "../images/team/3.png";
 import Person4 from "../images/team/4.png";
-import Person5 from "../images/team/5.png";
+
 
 function Team() {
   const teamPpl = [
     { img: Person1, name: "Sathwik Banala", job: "Founder" },
-    { img: Person2, name: "Sai kumar Kusangi", job: "CEO" },
-    { img: Person3, name: "Sravika Mallipeddi", job: "CMO" },
-    { img: Person4, name: "Lauren Rivera", job: "Car Detailist" },
-    { img: Person5, name: "Harsha Malladi", job: "Software Developer" },
+    { img: Person2, name: "Sai kumar Kusangi", job: "chief executive officer" },
+    { img: Person3, name: "Sravika Mallipeddi", job: "chief marketing officer" },
+    { img: Person4, name: "Mandeep Reddy", job: "investor" },
   ];
   return (
     <>

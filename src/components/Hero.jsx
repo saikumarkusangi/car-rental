@@ -37,21 +37,22 @@ function Hero() {
           <img className="bg-shape" src={BgShape} alt="bg-shape" />
           <div className="hero-content">
             <div className="hero-content__text">
-              <h4>Plan your trip now</h4>
               <h1>
-                Save <span>big</span> with our car rental
+              Find the job that is perfect for
+
+             <span>  You</span> 
               </h1>
               <p>
-                Rent the car of your dreams. Unbeatable prices, unlimited miles,
-                flexible pick-up options and much more.
+              Landing a great job opportunity is indeed an exciting milestone in one's career.
+               Make sure to carefully review the offer, including the salary, benefits, and any other important details. 
               </p>
               <div className="hero-content__text__btns">
                 <Link
-                  onClick={bookBtn}
+                  onClick={scrollToTop}
                   className="hero-content__text__btns__book-ride"
-                  to="/"
+                  to="/jobs"
                 >
-                  Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>
+                  Find a Job &nbsp; <i className="fa-solid fa-circle-check"></i>
                 </Link>
                 <Link className="hero-content__text__btns__learn-more" to="/">
                   Learn More &nbsp; <i className="fa-solid fa-angle-right"></i>
@@ -61,7 +62,7 @@ function Hero() {
 
             {/* img */}
             <img
-              src={HeroCar}
+              src="http://reactjob.codebasket.xyz/assets/img/banner/banner-21.png"
               alt="car-img"
               className="hero-content__car-img"
             />

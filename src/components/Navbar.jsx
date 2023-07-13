@@ -28,11 +28,11 @@ function Navbar() {
                 About
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link onClick={openNav} to="/models">
                 Models
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link onClick={openNav} to="/testimonials">
                 Testimonials
@@ -55,9 +55,12 @@ function Navbar() {
 
         <div className="navbar">
           <div className="navbar__img">
-            <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-              <img src={Logo} alt="logo-img" />
-            </Link>
+            <a  href="/" onClick={() => window.scrollTo(0, 0)}>
+             <span>
+             <img src="https://www.freeiconspng.com/uploads/customer-support-icon-png-28.png" alt="logo-img" />
+              <h1>HireMeNow</h1>
+             </span>
+            </a>
           </div>
           <ul className="navbar__links">
             <li>
@@ -67,32 +70,27 @@ function Navbar() {
             </li>
             <li>
               {" "}
-              <Link className="about-link" to="/about">
-                About
+              <Link className="about-link" to="/jobs">
+                Jobs
               </Link>
             </li>
-            <li>
+            {/* <li>
               {" "}
               <Link className="models-link" to="/models">
                 Vehicle Models
               </Link>
-            </li>
+            </li> */}
+            
             <li>
               {" "}
-              <Link className="testi-link" to="/testimonials">
-                Testimonials
+              <Link className="team-link" to="/">
+                Applied
               </Link>
             </li>
             <li>
               {" "}
-              <Link className="team-link" to="/team">
-                Our Team
-              </Link>
-            </li>
-            <li>
-              {" "}
-              <Link className="contact-link" to="/contact">
-                Contact
+              <Link className="contact-link" to="/">
+              Notifications
               </Link>
             </li>
           </ul>

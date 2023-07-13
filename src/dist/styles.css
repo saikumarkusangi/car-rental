@@ -24,7 +24,7 @@ body {
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #ff4d30 #ffffff;
+  scrollbar-color: rgb(51, 111, 222) #ffffff;
 }
 
 /* Chrome, Edge and Safari */
@@ -48,15 +48,15 @@ body {
 
 *::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
 }
 
 *::-webkit-scrollbar-thumb:active {
-  background-color: #ff2525;
+  background-color:  rgb(51, 111, 222);
 }
 
 .navbar {
@@ -75,8 +75,25 @@ body {
   z-index: 99999;
   margin: 0 auto;
 }
+.navbar__img span{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ 
+}
+.navbar__img a{
+  text-decoration: none;
+}
+
+.navbar__img span h1{
+  text-decoration: none;
+  color:  rgb(51, 111, 222);
+  font-size: 3em;
+}
+
 .navbar__img {
-  width: 14.5rem;
+  width: 8rem;
+
 }
 .navbar__img img {
   width: 100%;
@@ -97,7 +114,7 @@ body {
   transition: all 0.3s;
 }
 .navbar__links a:hover {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 @media (max-width: 1000px) {
   .navbar__links {
@@ -123,10 +140,10 @@ body {
   transition: all 0.3s;
 }
 .navbar__buttons__sign-in:hover {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .navbar__buttons__register {
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   color: white;
   padding: 1.5rem 3rem;
   border-radius: 3px;
@@ -134,8 +151,8 @@ body {
   transition: all 0.3s;
 }
 .navbar__buttons__register:hover {
-  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.5);
-  background-color: #fa4226;
+  box-shadow: 0 10px 15px 0   rgb(51, 111, 222);
+  background-color:   rgb(51, 111, 222);
 }
 .navbar__buttons a {
   text-decoration: none;
@@ -148,7 +165,7 @@ body {
   transition: all 0.3s;
 }
 .mobile-hamb:hover {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 @media (max-width: 1000px) {
   .mobile-hamb {
@@ -179,7 +196,7 @@ body {
   transition: all 0.3s;
 }
 .mobile-navbar__close:hover {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .mobile-navbar__links {
   display: flex;
@@ -196,7 +213,7 @@ body {
   transition: all 0.3s;
 }
 .mobile-navbar__links li a:hover {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 
 .open-nav {
@@ -262,7 +279,7 @@ body {
   margin-bottom: 2.3rem;
 }
 .hero-content__text h1 span {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .hero-content__text p {
   font-size: 1.6rem;
@@ -288,12 +305,12 @@ body {
   font-weight: 700;
 }
 .hero-content__text__btns__book-ride {
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid rgb(51, 111, 222);
 }
 @media (max-width: 450px) {
   .hero-content__text__btns__book-ride {
@@ -301,8 +318,8 @@ body {
   }
 }
 .hero-content__text__btns__book-ride:hover {
-  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
-  background-color: #fa4226;
+  box-shadow: 0 10px 15px 0   rgb(51, 111, 222);
+  background-color:   rgb(51, 111, 222);
 }
 .hero-content__text__btns__learn-more {
   background-color: #010103;
@@ -319,7 +336,7 @@ body {
   z-index: 2;
   position: absolute;
   right: 0;
-  width: 65%;
+  width: 40%;
   margin-top: 5rem;
 }
 @media (max-width: 800px) {
@@ -332,7 +349,7 @@ body {
   position: fixed;
   font-size: 2.5rem;
   color: white;
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   border: 3px solid white;
   width: 2rem;
   height: 2rem;
@@ -395,7 +412,7 @@ body {
   gap: 2rem;
 }
 .book-content__box .box-form b {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 @media (max-width: 1000px) {
   .book-content__box .box-form {
@@ -417,7 +434,7 @@ body {
   margin-bottom: 1.2rem;
 }
 .book-content__box .box-form__car-type label i {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .book-content__box .box-form__car-type select {
   font-size: 1.5rem;
@@ -446,7 +463,7 @@ body {
   margin-bottom: 1.2rem;
 }
 .book-content__box .box-form__car-time label i {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .book-content__box .box-form__car-time ::-webkit-datetime-edit {
   padding: 1.3rem 1.3rem;
@@ -465,13 +482,13 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
   color: white;
-  background-color: #ff4d30;
-  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.35);
+  background-color: rgb(51, 111, 222);
+  box-shadow: 0 10px 15px  rgb(51, 111, 222);
   cursor: pointer;
   transition: all 0.3s;
 }
 .book-content__box button:hover {
-  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.55);
+  box-shadow: 0 10px 15px   rgb(114, 144, 199);
 }
 
 .error-message {
@@ -561,7 +578,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem;
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   color: white;
   align-items: center;
 }
@@ -588,7 +605,7 @@ body {
 .booking-modal__message h4 {
   font-size: 1.9rem;
   font-weight: 700;
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .booking-modal__message h4 i {
   font-size: 2.5rem;
@@ -619,7 +636,7 @@ body {
 }
 .booking-modal__car-info__dates h5 {
   font-size: 1.8rem;
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .booking-modal__car-info__dates span {
   display: flex;
@@ -662,7 +679,7 @@ body {
 }
 .booking-modal__car-info__model h5 {
   font-size: 1.8rem;
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .booking-modal__car-info__model h5 span {
   color: #010103;
@@ -680,7 +697,7 @@ body {
 .booking-modal__person-info h4 {
   font-size: 1.8rem;
   text-transform: uppercase;
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
   margin-bottom: 2rem;
 }
 
@@ -733,7 +750,7 @@ body {
   color: #777777;
 }
 .info-form__2col span label b, .info-form__1col span label b {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .info-form__2col span input, .info-form__1col span input {
   padding: 14px 15px;
@@ -760,14 +777,14 @@ body {
   font-size: 2.4rem;
   color: white;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   border: 1px solid yellow;
   padding: 1.2rem 2rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 .reserve-button button:hover {
-  background-color: #fe3516;
+  background-color:   rgb(149, 169, 207);
 }
 
 .dates-div {
@@ -778,7 +795,7 @@ body {
 
 .plan-section {
   background-color: #ffffff;
-  padding: 5.3rem 0;
+  padding: 0 0;
 }
 
 .plan-container {
@@ -903,7 +920,7 @@ body {
   text-align: left;
 }
 .pick-box button:hover {
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   color: white;
 }
 
@@ -926,7 +943,7 @@ body {
 }
 .pick-description__price {
   width: 100%;
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -966,7 +983,7 @@ body {
   font-weight: 600;
   color: white;
   font-family: "Poppins", sans-serif;
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   padding: 1rem 1rem;
   display: flex;
   width: 100%;
@@ -976,7 +993,7 @@ body {
   box-shadow: 6px 6px 0 #efe9e9;
 }
 .cta-btn:hover {
-  background-color: #e9381d;
+  background-color:   rgb(51, 111, 222);
 }
 
 .box-cars {
@@ -999,7 +1016,7 @@ body {
 }
 
 .colored-button {
-  background-color: #ff4d30 !important;
+  background-color: rgb(51, 111, 222) !important;
   color: white;
 }
 
@@ -1007,7 +1024,7 @@ body {
   width: 48px;
   height: 48px;
   border: 5px solid rgba(0, 0, 0, 0.2588235294);
-  border-bottom-color: #ff3d00;
+  border-bottom-color:   rgb(51, 111, 222);
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;
@@ -1067,7 +1084,7 @@ body {
   }
 }
 .banner-content__text span {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
   font-weight: 500;
 }
 
@@ -1144,19 +1161,19 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   padding: 1.5rem 2.5rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid rgb(51, 111, 222);
   font-size: 1.6rem;
   width: -moz-fit-content;
   width: fit-content;
 }
 .text-container__left a:hover {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
-  background-color: #fa4226;
+  background-color:   rgb(51, 111, 222);
 }
 .text-container__right {
   display: flex;
@@ -1281,7 +1298,7 @@ body {
 
 .quotes-icon {
   font-size: 6.2rem;
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
   position: absolute;
   bottom: 33px;
   right: 60px;
@@ -1395,7 +1412,7 @@ body {
 }
 
 .active-question {
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   color: white;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
 }
@@ -1503,7 +1520,7 @@ footer {
   transition: all 0.2s;
 }
 .footer-content__1 li a:hover {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .footer-content__1 li:nth-child(1) {
   font-size: 2.4rem;
@@ -1538,7 +1555,7 @@ footer {
   transition: all 0.2s;
 }
 .footer-content__2 a:hover {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .footer-content__2 li {
   font-size: 1.6rem;
@@ -1573,12 +1590,12 @@ footer {
   text-decoration: none;
   color: white;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   padding: 1.5rem 2.5rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid rgb(51, 111, 222);
   font-size: 1.6rem;
   width: -moz-fit-content;
   width: fit-content;
@@ -1587,7 +1604,7 @@ footer {
 }
 .submit-email:hover {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.4);
-  background-color: #fa4226;
+  background-color:   rgb(51, 111, 222);
 }
 
 .hero-pages {
@@ -1631,7 +1648,7 @@ footer {
   transition: all 0.2s;
 }
 .hero-pages__text p a:hover {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 
 .about-main {
@@ -1789,7 +1806,7 @@ footer {
   font-size: 2.7rem;
   gap: 1rem;
   align-items: center;
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
   white-space: nowrap;
 }
 
@@ -1901,18 +1918,18 @@ footer {
   color: #010103;
 }
 .models-div__box__descr__name-price__btn {
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid rgb(51, 111, 222);
   font-size: 1.8rem;
   cursor: pointer;
 }
 .models-div__box__descr__name-price__btn:hover {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
-  background-color: #fa4226;
+  background-color:   rgb(51, 111, 222);
 }
 .models-div__box__descr__name-price__btn a {
   text-decoration: none;
@@ -2028,7 +2045,7 @@ footer {
   margin-bottom: 0.5rem;
 }
 .contact-div__text a:hover {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .contact-div__form {
   display: flex;
@@ -2044,7 +2061,7 @@ footer {
   margin-bottom: 1rem;
 }
 .contact-div__form form label b {
-  color: #ff4d30;
+  color: rgb(51, 111, 222);
 }
 .contact-div__form form input {
   background-color: #f2f2f2;
@@ -2064,12 +2081,12 @@ footer {
   margin-bottom: 2.5rem;
 }
 .contact-div__form form button {
-  background-color: #ff4d30;
+  background-color: rgb(51, 111, 222);
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid rgb(51, 111, 222);
   color: white;
   font-size: 1.8rem;
   font-weight: 600;
@@ -2077,5 +2094,5 @@ footer {
 }
 .contact-div__form form button:hover {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
-  background-color: #fa4226;
+  background-color:   rgb(51, 111, 222);
 }/*# sourceMappingURL=styles.css.map */
